@@ -10,10 +10,19 @@
     <script defer src="js/script.js"></script>
 </head>
 <body class="bg-secondary py-5">
-    <div class="ex-1 container border p-5 bg-warning-subtle">
+    <div class="ex-1 container border p-5 bg-warning-subtle mb-5">
         <h2 class="mb-3">Il risultato del tuo dado è: <span id="dice-user"></span></h2>
         <h2 class="mb-5">Il risultato del dado del computer è: <span id="dice-pc"></span></h2>
         <h2 class="">Il risultato della tua scommessa è: <span id="result-roll-dices"></span></h2>
+    </div>
+
+    <div class="ex-2 container border p-5 bg-success-subtle text-center">
+        <div class="check-box mb-5">
+            <input id="user-email" type="text" placeholder="Inserisci qui la tua email">
+            <button id="check-button" type="button">Controlla</button>
+        </div>
+
+        <h2 id="permission"></h2>
     </div>
     
 </body>
